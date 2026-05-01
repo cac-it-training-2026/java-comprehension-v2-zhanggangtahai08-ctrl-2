@@ -1,7 +1,6 @@
-package q02_advanced.question02;
+package q02_advanced.question03;
 
 public class Coupon {
-
 	private int id;
 	private double discountRate;
 	private String description;
@@ -54,9 +53,8 @@ public class Coupon {
 	}
 
 	public static Coupon getInstance(int id, double discountRate, String description) {
-
 		Coupon coupon = new Coupon(id, discountRate, description);
-
 		return coupon;
 	}
+
 }
