@@ -35,6 +35,7 @@ public class SystemMain03 {
 			}
 			System.out.println("ログインユーザ情報を表示します。 ");
 			System.out.println(member);
+			//
 		}
 
 	}
