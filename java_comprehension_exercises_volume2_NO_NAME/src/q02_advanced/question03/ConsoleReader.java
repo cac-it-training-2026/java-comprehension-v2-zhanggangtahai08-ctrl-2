@@ -1,13 +1,10 @@
-package q01_basic.question06;
+package q02_advanced.question03;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * 標準入力を制御するクラス
- */
-class ConsoleReader {
+public class ConsoleReader {
 
 	/**
 	 * 文字列の標準入力。
@@ -33,10 +30,8 @@ class ConsoleReader {
 		//TODO ここから実装する
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String str = reader.readLine();
-		int num = Integer.parseInt(str);
 
 		return Integer.parseInt(str);
-
 	}
 
 }
